@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+	font-family: 'Impact', sans-serif;
+	color: #3a3a3a;
+	letter-spacing: 2px;
+
+
+}
+
+/* Navigation Link Codes */
+
+a:hover {
+  background-color: white;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+
+.main-nav {
+	display: inline-block;
+	  width: 100%;
+	  height: 100px;
+	  margin: 0 0;
+		background-color: #993333;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+	display: inline;
+}
+
+.nav li {
+display: inline-block;
+margin-right: 15px;
+background-color: #c4e4ed ;
+padding: 10px 25px;
+border-radius: 5px;
+border-style: groove;
+border-color: navy;
+}
+
+.name {
+margin-right: 50px;
+display: inline;
+font-weight: bolder;
+}
+
+
+/* Header Codes */
+.pschloarimg {
+	max-width:50%;
+  max-height:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Principles Codes */
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.principles {
+	color: white;
+   background-color: #993333;
+   padding: 3% 3%;
+   border-top: 10px solid #c4e4ed;
+   margin: 105px 0 60px;
+	 display: block;
+}
+
+.imgprinciples {
+  float: right;
+	margin-right: 0;
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.missionvision
+	{color: white;
+   background-color: #993333;
+   padding: 3% 3%;
+   border-top: 10px solid #c4e4ed;
+   margin: 105px 0 60px;
+	 display: block;
+ }
+
+ .missionvision p
+ {text-align: left;}
+
+
+/* Footer */
+/* Style all font awesome icons */
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1 ;
+}
+
+
+/* Resume Codes */
+
+.founder{
+	color: white;
+	 background-color: #993333;
+	 padding: 5% 5%;
+	 border-top: 10px solid #c4e4ed;
+	 margin: 105px 0 60px;
+	 display: block;
+	 height: 500px;
+
+}
+
+.profpic {
+	float: right;
+	margin-left: 15%;
+	margin-top: 0%;
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+/* Footer */
+.fa-facebook {
+  background: #993333;
+  color: navy;
+}
+
+.fa-twitter {
+  background: #993333;
+  color: navy;
+}
+
+.fa-instagram {
+  background: #993333;
+  color: navy;
+}
+
+footer {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
