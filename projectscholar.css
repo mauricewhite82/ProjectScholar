@@ -1,16 +1,17 @@
 * {
 	box-sizing: border-box;
+	padding-left: 1em;
+	padding-right: 1em;
+
 }
-
-
 
 
 body {
 	font-family: 'Impact', sans-serif;
 	color: #3a3a3a;
 	letter-spacing: 2px;
-
-
+	padding-left: 10%;
+	padding-right: 10%
 }
 
 /* Navigation Link Codes */
@@ -78,16 +79,24 @@ p {
    padding: 3% 3%;
    border-top: 10px solid #c4e4ed;
    margin: 105px 0 60px;
-	 display: block;
+	 -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
 }
 
 .imgprinciples {
-  float: right;
-	margin-right: 0;
+	margin-right:100%;
 	box-shadow: 3px 3px 5px 6px #ccc;
+
+
 }
 
-.missionvision
+.mvp {
+	display: flex;
+}
+
+
+.mission
 	{color: white;
    background-color: #993333;
    padding: 3% 3%;
@@ -96,64 +105,114 @@ p {
 	 display: block;
  }
 
- .missionvision p
+ .mission p
  {text-align: left;}
 
-
-/* Footer */
-/* Style all font awesome icons */
-
-footer .copyright {
-  top: -8px;
-  margin-right: 20px;
-  font-size: .75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
+ .mission p, h2{
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ }
 
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
+ .vision
+ 	{color: white;
+    background-color: #993333;
+    padding: 3% 3%;
+    border-top: 10px solid #c4e4ed;
+    margin: 105px 0 60px;
+ 	 display: block;
+  }
 
+  .vision p
+  {text-align: left;}
+
+  .vision p, h2{
+ 	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  }
+
+	.purpose
+	{color: white;
+		background-color: #993333;
+		padding: 3% 3%;
+		border-top: 10px solid #c4e4ed;
+		margin: 105px 0 60px;
+	 display: block;
+	}
+
+	.purpose p
+	{text-align: left;}
+
+	.purpose p, h2{
+	-webkit-text-stroke-width: 1px;
+	 -webkit-text-stroke-color: black;
+	}
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 1 ;
 }
 
-
 /* Resume Codes */
 
-.founder{
-	color: white;
-	 background-color: #993333;
-	 padding: 5% 5%;
-	 border-top: 10px solid #c4e4ed;
-	 margin: 105px 0 60px;
+.founder
+	{color: white;
+   background-color: #993333;
+   padding: 3% 3%;
+   border-top: 10px solid #c4e4ed;
+   margin: 105px 0 60px;
 	 display: block;
-	 height: 500px;
+ }
 
-}
+ .founder p
+ {text-align: left;}
+
+ .founder h1
+ {text-align: center;
+  text:
+ }
+
+ .founder p, li, h1{
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ }
 
 .profpic {
-	float: right;
-	margin-left: 15%;
+	margin-left: 33%;
 	margin-top: 0%;
 	box-shadow: 3px 3px 5px 6px #ccc;
 }
+
+
+ * Footer */
+ /* Style all font awesome icons */
+
+ footer .copyright {
+   top: -8px;
+   margin-right: 20px;
+   font-size: .75em;
+ }
+
+ footer ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ footer ul li {
+   display: inline-block;
+ }
+
+
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+
+
 
 /* Footer */
 .fa-facebook {
@@ -174,4 +233,44 @@ footer ul li {
 footer {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
+	padding-top: 25%
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.nav li
+{font-size: 12px;
+	text-align: center;align
+  }
+
+
+
+
+.mvp {
+	display: flex;
+	width:200px;
+	padding-right: 50px;
+}
+
+.founder {
+width:500px;
+padding-right: 50px;
+}
+
+.principles {
+width:500px;
+height:1000px
+padding-right: 50px;
+font-size: 12px;
+}
+
+.principles h2 {
+text-align: center;
+}
+
+.principle, ul;{
+	font-size: 12px
 }
