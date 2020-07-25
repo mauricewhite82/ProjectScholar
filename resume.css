@@ -1,15 +1,7 @@
-* {
-	box-sizing: border-box;
-}
-
-
-
-
 body {
 	font-family: 'Impact', sans-serif;
 	color: #3a3a3a;
 	letter-spacing: 1px;
-
 
 }
 
@@ -75,36 +67,74 @@ p {
 
 /*resume*/
 
+.experience {
+  width: 90%;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+	margin: auto;
+  line-height: normal;
+}
 
-@media screen and (min-width: 720px) {
+.education {
+	width: 90%;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+	margin: auto;
+	line-height:75%;
+}
 
-  .experience {
-      display: flex;
-      max-width: 1200px;
-      justify-content: space-around;
-      margin: 0 auto;
-		 }
-		 .hiphop {
-		   margin: 30px;
-		   padding: 20px 40px 40px;
-		   max-width: 500px;
-		   text-align: left;
-		   background: #c4e4ed;
-		   border-bottom: 4px solid #ccc;
-		   border-radius: 6px;
-		 }
-		 .hiphop:hover {
-		   border-color: #ff99ff;
-		 }
 
-		 .spanish {
-		 	margin: 30px;
-		 	padding: 20px 40px 40px;
-		 	max-width: 500px;
-		 	text-align: left;
-		 	background: #c4e4ed;
-		 	border-bottom: 4px solid #ccc;
-		 	border-radius: 6px;
-		 }
-		 .spanish:hover {
-		 	border-color: #ff99ff;
+/* footer code */
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+.fa-facebook {
+  background: #993333;
+  color: navy;
+}
+
+.fa-twitter {
+  background: #993333;
+  color: navy;
+}
+
+.fa-instagram {
+  background: #993333;
+  color: navy;
+}
+
+footer {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	padding-top: 25%
+}
