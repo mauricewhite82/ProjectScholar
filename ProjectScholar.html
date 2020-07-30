@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
-<!-- Add icon library -->
+<!-- Will create a different font style -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="projectscholar"></script>
 
-<head>
+<header>
   <meta charset="utf-8">
   <title>Project Scholar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +13,14 @@
   <body>
 
     <div class="main-nav">
-        <ul class="nav">
-          <li><a href="#missionvision">Mission and Vision</a></li>
-          <li><a href="#hiphop">Hip-Hop Literacy</a></li>
-          <li><a href="Form.html">Sign-Up</a></li>
-        </ul>
+        <div id="nav" >
+          <a href="#missionvision">Mission and Vision</a>
+          <a href="#hiphop">Hip-Hop Literacy</a>
+          <a href="Form.html">Sign-Up</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
     </div>
 
     <header>
@@ -38,7 +41,7 @@
         </ul>
       </div>
 
-      <section class="mvp">
+      <!-- Three colums of text -->
       <div class= "mission" id="missionvision">
         <h2>Mission</h2>
         <p>Academically empowering young scholars  through
@@ -70,6 +73,7 @@
         <p> Project Scholar Urban Education is a multitiered educational brand that offers a variety of services and resources for every scholar to succeed.
             “___ Scholars, seeking to be scholar, ” </p>
 
+                 <!-- This link will send user to another page -->
           <li>To learn more, <a href="resume.html">view my resume.</a></li>
 
         </ul>
@@ -108,7 +112,7 @@ innovative way.</p>
 
 
     </main>
-
+<!-- Links will send user to social media pages (links are not active) -->
     <footer>
       <ul>
         <li><a href="#" class="fa fa-facebook"></a></li>

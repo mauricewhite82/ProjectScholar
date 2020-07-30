@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
-	padding-left: 1em;
-	padding-right: 1em;
+
 
 }
 
@@ -10,8 +9,7 @@ body {
 	font-family: 'Impact', sans-serif;
 	color: #3a3a3a;
 	letter-spacing: 2px;
-	padding-left: 10%;
-	padding-right: 10%
+
 }
 
 /* Navigation Link Codes */
@@ -108,6 +106,7 @@ p {
  .mission p
  {text-align: left;}
 
+/*Will outline text in this section*/
  .mission p, h2{
 	-webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -147,7 +146,7 @@ p {
 	-webkit-text-stroke-width: 1px;
 	 -webkit-text-stroke-color: black;
 	}
-/* Add a hover effect if you want */
+/* Will Add a hover effect */
 .fa:hover {
   opacity: 1 ;
 }
@@ -241,29 +240,68 @@ footer {
 
 @media screen and (max-width: 640px) {
 
-.nav li
-{font-size: 12px;
-	text-align: center;align
+
+* {width: 100%;
   }
 
+	/* Style the navigation menu */
+	.main-nav {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: relative;
+	}
 
+	/* Hide the links inside the navigation menu (except for logo/home) */
+	.main-nav #nav {
+
+	/* Style navigation menu links */
+	.main-nav a {
+	  color: white;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	/* Style the hamburger menu */
+	.main-nav a.icon {
+	  background: black;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	/* Add a grey background color on mouse-over */
+	.main-nav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Style the active link (or home/logo) */
+	.active {
+	  background-color: #4CAF50;
+	  color: red;
+	}
+
+
+header {
+	margin-top: 50px;
+}
 
 
 .mvp {
 	display: flex;
-	width:200px;
-	padding-right: 50px;
+	font-size: 9px;
 }
+
 
 .founder {
-width:500px;
-padding-right: 50px;
-}
+
+
 
 .principles {
-width:500px;
-height:1000px
-padding-right: 50px;
+height:1000px;
 font-size: 12px;
 }
 
@@ -272,5 +310,5 @@ text-align: center;
 }
 
 .principle, ul;{
-	font-size: 12px
+	font-size: 12px;
 }

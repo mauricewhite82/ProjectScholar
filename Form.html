@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<script src="projectscholar"></script>
 
 <head>
   <meta charset="utf-8">
@@ -14,11 +14,14 @@
   <body>
 
     <div class="main-nav">
-        <ul class="nav">
-          <li><a href="projectscholar.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="Form.html">Sign-Up</a></li>
-        </ul>
+        <div id="nav" >
+          <a href="projectscholar.html">Mission and Vision</a>
+          <a href="#projectscholar.html">Hip-Hop Literacy</a>
+          <a href="resume.html">Resume</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
     </div>
 
     <header>
@@ -32,6 +35,7 @@
 
 <fieldset>
 
+<!-- This section will take basic text information phone and email will have to be verified -->
 <legend><span class="number">1</span> Parent's Info</legend>
 
 <label for="name">First Name:</label>
@@ -48,7 +52,7 @@
   <legend><span class="number">2</span> Student's Info</legend>
   <label>Grade Level:</label><br>
 
-
+<!-- This section will allow use to select one option -->
   <label for="first_grade" class="firstgrade">First Grade</label>
       <input type="radio" id="first-grade" value="first_grade" name="first_grade">
   <label for="second_grade" class="secondgrade">Second Grade</label>
@@ -63,7 +67,7 @@
 
 <div class="academicneeds">
 <label>Academic Needs:</label><br>
-
+ <!-- This code will allow users to make multiple selections-->
 <Ul>
   <li><input type="checkbox" id="readingfoundation" name="readingfoundation" value="reading_foundation">
   <label for="readingfoundation"> Reading Foundations: "I need help learning to read." (Letter ID, letter sounds, sight words)</label></li>
@@ -82,6 +86,7 @@
 </ul>
 </div>
 
+<!-- This section will take basic text but text box will be adjustable-->
 <div class="academicneeds2">
   <label for="needs">Describe your concerns/needs for your scholar. What have you noticed when working with them?:</label>
   <textarea rows="4" cols="50" id="needs"  name="needs" form="usrform">
